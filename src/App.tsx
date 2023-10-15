@@ -1,9 +1,8 @@
+// Get inspiration from other websites such as
+// strategicmma,
+
 function App() {
-  return (
-    <>
-      <div className="bg-primary">TEST</div>
-    </>
-  );
+  return <></>;
 }
 
 export default App;
