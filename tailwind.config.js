@@ -9,11 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#FFBB5C",
-        secondary: "#FF9B50",
-        vermilion: "#E25E3E",
-        darkorange: "#C63D2F",
+        primary: "#053B50",
+        secondary: "#176B87",
+        seaserpent: "#64CCC5",
+        brightgray: "#EEEEEE",
       },
+      fontFamily: {
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans]
+      }
     },
   },
   plugins: [],
