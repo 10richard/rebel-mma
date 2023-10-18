@@ -18,7 +18,11 @@ const Navbar = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <nav className="bg-black bg-transparent flex items-center justify-between px-10 py-2 z-50 w-full fixed">
+    <nav
+      className={`flex items-center justify-between px-10 py-2 z-50 w-full fixed ${
+        navbar ? "bg-black bg-opacity-80" : "bg-transparent"
+      }`}
+    >
       <div>
         <a href="/">
           <img className="w-[200px]" src={logo} alt="RebelMMA Logo" />
