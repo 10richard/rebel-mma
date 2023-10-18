@@ -19,13 +19,17 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center justify-between px-10 py-2 z-50 w-full fixed ${
+      className={`flex items-center justify-between min-[480px]:px-10 px-5 py-2 z-50 w-full fixed ${
         navbar ? "bg-black bg-opacity-80" : "bg-transparent"
       }`}
     >
       <div>
         <a href="/">
-          <img className="w-[200px]" src={logo} alt="RebelMMA Logo" />
+          <img
+            className="min-[480px]:w-[200px] w-[175px]"
+            src={logo}
+            alt="RebelMMA Logo"
+          />
         </a>
       </div>
 
