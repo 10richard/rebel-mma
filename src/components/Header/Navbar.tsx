@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center justify-between min-[480px]:px-10 px-5 py-2 z-50 w-full fixed ${
+      className={`flex items-center justify-between min-[480px]:px-10 px-5 py-2 z-50 w-full fixed duration-300 ${
         navbar ? "bg-black bg-opacity-80" : "bg-transparent"
       }`}
     >
