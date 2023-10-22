@@ -1,4 +1,3 @@
-import React from "react";
 import bjj from "../../assets/featured-classes/bjj.jpeg";
 import boxing from "../../assets/featured-classes/boxing.jpeg";
 import mma from "../../assets/featured-classes/mma.jpg";
