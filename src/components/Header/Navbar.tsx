@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/rebelmma-logo.png";
-import closeMenu from "../../assets/close-menu-icon.svg";
-import hamburgerMenu from "../../assets/menu-icon.svg";
+import closeMenu from "../../assets/hamburger-menu/close-menu-icon.svg";
+import hamburgerMenu from "../../assets/hamburger-menu/menu-icon.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState<boolean>(false);
