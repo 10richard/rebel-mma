@@ -1,4 +1,3 @@
-import React from "react";
 import grapplingCoach from "../../assets/instructors/grappling.png";
 import strikingCoach from "../../assets/instructors/striking.png";
 import conditioningCoach from "../../assets/instructors/conditioning.png";
