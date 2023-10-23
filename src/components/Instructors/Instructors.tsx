@@ -21,7 +21,7 @@ const Instructors = () => {
   return (
     <section className="instructors flex justify-center py-20">
       <div className="w-5/6 text-center flex flex-col gap-16">
-        <h1 className="text-5xl font-bold underline underline-offset-8 decoration-seaserpent">
+        <h1 className="max-[430px]:text-4xl max-[430px]:leading-snug text-5xl font-bold underline underline-offset-8 decoration-seaserpent leading-snug">
           Learn from Champions
         </h1>
 
