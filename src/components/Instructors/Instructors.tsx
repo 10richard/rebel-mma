@@ -19,15 +19,15 @@ const Instructors = () => {
     },
   ];
   return (
-    <section className="instructrs flex justify-center py-20">
+    <section className="instructors flex justify-center py-20">
       <div className="w-5/6 text-center flex flex-col gap-16">
         <h1 className="text-5xl font-bold underline underline-offset-8 decoration-seaserpent">
           Learn from Champions
         </h1>
 
-        <div className="flex max-[1150px]:flex-col gap-10">
+        <div className="flex flex-wrap items-center justify-center gap-10">
           {Coaches.map((coach: CoachInfo) => (
-            <div className="group shadow-lg rounded-2xl overflow-hidden">
+            <div className="group shadow-lg rounded-2xl max-w-[375px] overflow-hidden">
               <img
                 className="grayscale group-hover:grayscale-0 group-hover:bg-secondary/60 duration-300"
                 src={coach.img}
