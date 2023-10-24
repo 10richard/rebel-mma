@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="bg-seaserpent px-3 py-2 text-black rounded-xl brightness-75 hover:brightness-100 duration-300"
+            className="bg-seaserpent brightness-110 px-5 py-2.5 text-black hover:bg-white duration-500"
             href="/signup"
           >
             SIGN UP
