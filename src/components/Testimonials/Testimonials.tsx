@@ -4,7 +4,7 @@ import googleLogo from "../../assets/testimonials/google-logo.png";
 const Testimonials = () => {
   const Testimonials = [
     {
-      customer_name: "Alex R.",
+      customer_name: "Alexis R.",
       review:
         "Training at RebelMMA has been an incredible experience. The dedication of the coaches to each student's growth is truly commendable. They push you to your limits while fostering a supportive and inclusive atmosphere.",
     },
@@ -18,7 +18,7 @@ const Testimonials = () => {
   return (
     <section className="testiomonials flex justify-center py-20 bg-black">
       <div className="w-5/6 text-center flex flex-col gap-20">
-        <h1 className="text-5xl text-white font-bold underline underline-offset-8 decoration-seaserpent max-[430px]:text-4xl max-[430px]:leading-snug">
+        <h1 className="text-5xl text-white font-bold underline underline-offset-8 decoration-seaserpent max-[430px]:text-4xl max-[430px]:leading-snug leading-snug">
           Voices of Our Students
         </h1>
 
