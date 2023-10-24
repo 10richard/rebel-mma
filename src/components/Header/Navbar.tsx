@@ -71,7 +71,7 @@ const Navbar = () => {
 
       {/* Menu modal */}
       <div
-        className={`fixed right-0 bottom-0 z-40 h-full w-[300px] min-[1150px]:hidden opacity-95 backdrop-blur-md bg-babyblue/80 text-lg ${
+        className={`fixed right-0 bottom-0 z-40 h-full w-[300px] min-[1150px]:hidden opacity-95 backdrop-blur-md bg-secondary/90 text-lg ${
           toggle ? "flex-col" : "hidden"
         } `}
       >
@@ -103,10 +103,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a
-              className="bg-seaserpent px-3 py-2 text-black rounded-xl brightness-75 hover:brightness-100 duration-300"
-              href="/signup"
-            >
+            <a className="bg-primary px-5 py-2.5 rounded-xl" href="/signup">
               SIGN UP
             </a>
           </li>
