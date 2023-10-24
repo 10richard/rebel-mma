@@ -9,33 +9,35 @@ const Featured = () => {
       name: "BJJ",
       altText: "Featured BJJ class",
       img: bjj,
-      position: "col-start-1 col-end-2",
+      position: "min-[900px]:col-start-1 min-[900px]:col-end-2",
     },
     {
       name: "Boxing",
       altText: "Featured Boxing class",
       img: boxing,
-      position: "col-start-2 col-end-4",
+      position: "min-[900px]:col-start-2 min-[900px]:col-end-4",
     },
     {
       name: "MMA",
       altText: "Featured MMA class",
       img: mma,
-      position: "col-start-1 col-end-3",
+      position: "min-[900px]:col-start-1 min-[900px]:col-end-3",
     },
     {
       name: "Wrestling",
       altText: "Featured Wrestling class",
       img: wrestling,
-      position: "col-start-3 col-end-4",
+      position: "min-[900px]:col-start-3 min-[900px]:col-end-4",
     },
   ];
 
   return (
     <section className="featured-programs flex flex-col items-center justify-center gap-10 py-20">
-      <h1 className="text-5xl font-bold text-center">Featured Programs</h1>
+      <h1 className="text-5xl font-bold text-center max-[430px]:text-4xl max-[430px]:leading-snug leading-snug">
+        Featured Programs
+      </h1>
 
-      <div className="grid grid-col-3 w-5/6 gap-2">
+      <div className="min-[900px]:grid grid-cols-3 max-[900px]:flex flex-col w-5/6 gap-2">
         {FeaturedPrograms.map((program) => (
           // a links to Programs page and section of chosen class
           <div
