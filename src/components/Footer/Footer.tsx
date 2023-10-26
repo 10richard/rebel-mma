@@ -12,24 +12,24 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-2 min-[1020px]:-mt-28 -mt-10">
           <img className="max-w-[275px]" src={logo} alt="RebelMMA logo" />
           <div className="social-links flex items-center gap-5">
-            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500">
+            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500 cursor-pointer">
               <img
                 className="w-[23px]"
                 src={facebookLogo}
                 alt="Facebook logo"
               />
             </a>
-            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500">
+            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500 cursor-pointer">
               <img
                 className="w-[23px]"
                 src={instagramLogo}
                 alt="Instagram logo"
               />
             </a>
-            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500">
+            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500 cursor-pointer">
               <img className="w-[23px]" src={twitterLogo} alt="Twitter logo" />
             </a>
-            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500">
+            <a className="p-2.5 bg-gray-200 rounded-full border-2 hover:border-seaserpent hover:scale-110 duration-500 cursor-pointer">
               <img className="w-[23px]" src={youtubeLogo} alt="Youtube logo" />
             </a>
           </div>
