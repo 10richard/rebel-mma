@@ -58,7 +58,7 @@ const Featured = () => {
         ))}
 
         <a
-          className="text-center text-lg text-white col-span-3 bg-primary py-2 hover:bg-seaserpent hover:text-black duration-500 rounded-xl"
+          className="text-center text-lg text-white col-span-3 bg-primary brightness-200 py-2 hover:brightness-125 duration-300 rounded-xl"
           href="/programs"
         >
           SEE MORE
