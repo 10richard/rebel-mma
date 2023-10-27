@@ -40,9 +40,15 @@ const Footer = () => {
             <h1 className="font-bold text-2xl">Our Programs</h1>
             <span className="w-[80px] h-[4px] bg-seaserpent mb-4 mt-1"></span>
             <div className="grid gap-5">
-              <p className="hover:text-seaserpent">Martial Arts</p>
-              <p className="hover:text-seaserpent">Personal Training</p>
-              <p className="hover:text-seaserpent">Strength & Conditioning</p>
+              <p className="hover:text-seaserpent cursor-pointer">
+                Martial Arts
+              </p>
+              <p className="hover:text-seaserpent cursor-pointer">
+                Personal Training
+              </p>
+              <p className="hover:text-seaserpent cursor-pointer">
+                Strength & Conditioning
+              </p>
             </div>
           </div>
 
