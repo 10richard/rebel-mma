@@ -1,8 +1,6 @@
 import { Programs } from "./ProgramsList";
 
 const ProgramsBox = () => {
-  function setImageOrientation(idx: number) {}
-
   return (
     <section className="programs flex justify-center pt-16">
       <div className="flex flex-col">
