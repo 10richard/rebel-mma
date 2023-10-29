@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex w-7/12 justify-around max-[1020px]:flex-col max-[1020px]:gap-16 max-[1020px]:self-start">
+        <div className="flex w-8/12 justify-around max-[1020px]:flex-col max-[1020px]:gap-16 max-[1020px]:self-start">
           <div className="flex flex-col">
             <h1 className="font-bold text-2xl">Our Programs</h1>
             <span className="w-[80px] h-[4px] bg-seaserpent mb-4 mt-1"></span>
