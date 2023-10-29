@@ -90,9 +90,10 @@ const SignUpBox = ({ headingOne, headingTwo }: SignUpBoxProps) => {
               <select
                 className="border border-black px-2.5 py-1.5 rounded-lg focus:outline-none"
                 id="program-of-interest"
+                defaultValue={"DEFAULT"}
                 required
               >
-                <option disabled selected>
+                <option value="DEFAULT" disabled>
                   Select your option
                 </option>
                 <option value="bjj">BJJ</option>
