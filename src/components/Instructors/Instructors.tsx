@@ -26,8 +26,11 @@ const Instructors = () => {
         </h1>
 
         <div className="flex flex-wrap items-center justify-center gap-10">
-          {Coaches.map((coach: CoachInfo) => (
-            <div className="group shadow-lg rounded-2xl max-w-[375px] overflow-hidden">
+          {Coaches.map((coach: CoachInfo, idx) => (
+            <div
+              key={idx}
+              className="group shadow-lg rounded-2xl max-w-[375px] overflow-hidden"
+            >
               <img
                 className="grayscale group-hover:grayscale-0 group-hover:bg-secondary/60 duration-300"
                 src={coach.img}

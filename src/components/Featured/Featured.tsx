@@ -38,9 +38,10 @@ const Featured = () => {
       </h1>
 
       <div className="min-[900px]:grid grid-cols-3 max-[900px]:flex flex-col w-5/6 gap-2">
-        {FeaturedPrograms.map((program) => (
+        {FeaturedPrograms.map((program, idx) => (
           // a links to Programs page and section of chosen class
           <div
+            key={idx}
             className={`${program.position} bg-black h-[300px] border-secondary border-2 relative group overflow-hidden`}
           >
             <a href="/programs">

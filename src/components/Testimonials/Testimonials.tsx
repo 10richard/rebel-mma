@@ -23,8 +23,11 @@ const Testimonials = () => {
         </h1>
 
         <div className="flex flex-wrap justify-around gap-10">
-          {Testimonials.map((testimonial) => (
-            <div className="flex justify-center items-center gap-7 max-w-[550px] bg-white p-6 rounded-lg border-l-secondary border-l-[5.5px]">
+          {Testimonials.map((testimonial, idx) => (
+            <div
+              key={idx}
+              className="flex justify-center items-center gap-7 max-w-[550px] bg-white p-6 rounded-lg border-l-secondary border-l-[5.5px]"
+            >
               <img
                 className="self-start w-[40px]"
                 src={googleLogo}
