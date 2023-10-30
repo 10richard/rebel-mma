@@ -8,7 +8,7 @@ interface BannerProps {
 
 const Banner = ({ heading }: BannerProps) => {
   return (
-    <section className="banner w-full h-[30vh]">
+    <section className="banner w-full h-[30vh] mb-16">
       <div className="relative text-center">
         <h1 className="text-white absolute z-10 w-full bottom-10 font-bold text-4xl">
           {heading}

@@ -2,7 +2,7 @@ import { Programs } from "./ProgramsList";
 
 const ProgramsBox = () => {
   return (
-    <section className="programs flex justify-center pt-16">
+    <section className="programs flex justify-center">
       <div className="flex flex-col">
         {Programs.map((program, idx) => (
           <div
