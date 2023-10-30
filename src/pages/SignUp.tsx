@@ -1,12 +1,13 @@
-// Inputs: Name, email, phone,
-// program of interest (dropdown)
-
-// Btn = Redeem a free intro class
-
-import React from "react";
+import Banner from "../components/Banner/Banner";
+import SignUpBox from "../components/SignUpBox/SignUpBox";
 
 const SignUp = () => {
-  return <div>SignUp</div>;
+  return (
+    <>
+      <Banner heading="Sign Up" />
+      <SignUpBox headingTwo="Start today!" />
+    </>
+  );
 };
 
 export default SignUp;

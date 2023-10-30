@@ -1,10 +1,15 @@
-// BJJ, Boxing, KickBoxing, MMA, Wrestling,
-// Personal Training, Strength & Conditioning
-
-import React from "react";
+import ProgramsBox from "../components/ProgramsBox/ProgramsBox";
+import SignUpBox from "../components/SignUpBox/SignUpBox";
+import Banner from "../components/Banner/Banner";
 
 const Programs = () => {
-  return <div>Programs</div>;
+  return (
+    <>
+      <Banner heading="Our Programs" />
+      <ProgramsBox />
+      <SignUpBox headingTwo="GET STARTED WITH US NOW" />
+    </>
+  );
 };
 
 export default Programs;
