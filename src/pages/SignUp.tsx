@@ -5,7 +5,10 @@ const SignUp = () => {
   return (
     <>
       <Banner heading="Sign Up" />
-      <SignUpBox headingTwo="Start today!" />
+      <SignUpBox
+        headingOne="FREE TRIAL SIGN UP"
+        headingTwo="TAKE THE FIRST STEP TODAY"
+      />
     </>
   );
 };
