@@ -19,7 +19,7 @@ const AcademyInfo = () => {
               <p className="max-[700px]:text-sm">{info.text}</p>
             </div>
             <img
-              className="w-full object-cover rounded-xl"
+              className="w-full object-cover rounded-xl min-[650px]:h-[350px]"
               src={info.image}
               alt={info.heading}
             />
