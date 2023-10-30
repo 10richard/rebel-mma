@@ -6,9 +6,9 @@ import facebookLogo from "../../assets/socials/facebook.svg";
 
 const Footer = () => {
   return (
-    <footer className="footer flex justify-center py-24 bg-white">
+    <footer className="footer flex flex-col items-center py-24 bg-white relative">
       {/* Programs, Working Hours, More - (About) */}
-      <div className="w-5/6 flex items-center min-[1020px]:justify-between max-[1020px]:flex-col max-[1020px]:gap-20">
+      <div className="w-5/6 flex items-center min-[1020px]:justify-between max-[1020px]:flex-col max-[1020px]:gap-20 mb-5">
         <div className="flex flex-col items-center gap-2 min-[1020px]:-mt-28 -mt-10">
           <img className="max-w-[275px]" src={logo} alt="RebelMMA logo" />
           <div className="social-links flex items-center gap-5">
@@ -68,6 +68,20 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="absolute bottom-2 flex flex-col items-center w-full">
+        <span className="w-5/6 h-[4px] bg-seaserpent mb-4 mt-1"></span>
+        <h1>
+          ©2023 RebelMMA by{" "}
+          <a
+            className="hover:text-seaserpent"
+            target="_blank"
+            href="https://github.com/10richard/rebel-mma"
+          >
+            10richard
+          </a>
+        </h1>
       </div>
     </footer>
   );
