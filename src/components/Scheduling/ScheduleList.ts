@@ -1,5 +1,3 @@
-type Day = "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday" ;
-
 interface ClassInfo {
   name: string;
   time: string;
