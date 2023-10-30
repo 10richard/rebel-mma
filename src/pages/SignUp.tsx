@@ -7,7 +7,10 @@ const SignUp = () => {
     <>
       <Banner heading="Sign Up" />
       <div className="grid min-[1200px]:grid-cols-2 items-center">
-        <SignUpBox headingOne="FREE TRIAL" headingTwo="TAKE THE FIRST STEP" />
+        <SignUpBox
+          headingOne="FREE TRIAL CLASS"
+          headingTwo="TAKE THE FIRST STEP"
+        />
         <GoogleMaps />
         {/* <div className="min-[1200px]:h-[450px] px-10">
           <img
