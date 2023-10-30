@@ -47,7 +47,7 @@ const ScheduleBox = () => {
 
               <div className="">
                 <a
-                  className="border text-lg px-4 py-2 rounded-3xl bg-white border-black hover:bg-seaserpent duration-500"
+                  className="border text-lg px-4 py-2 rounded-3xl bg-white hover:bg-seaserpent duration-500"
                   href="/signup"
                 >
                   Reserve Now
