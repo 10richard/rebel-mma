@@ -44,5 +44,5 @@ and Gymate (s/o Stefan)
 # <h3>Sign Up Page</h3>
 
 <p>
-    <img src="./src/assets/website-screenshots/signup.png">
+    <img src="./src/assets/website-screenshots/sign-up.png">
 </p>
