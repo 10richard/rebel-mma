@@ -12,13 +12,6 @@ const SignUp = () => {
           headingTwo="TAKE THE FIRST STEP"
         />
         <GoogleMaps />
-        {/* <div className="min-[1200px]:h-[450px] px-10">
-          <img
-            className="object-cover h-full rounded-xl border-2 border-primary shadow-lg"
-            src={runningImg}
-            alt="Person running on treadmill"
-          />
-        </div> */}
       </div>
     </>
   );
