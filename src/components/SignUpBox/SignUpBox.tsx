@@ -8,7 +8,7 @@ const SignUpBox = ({ headingOne, headingTwo }: SignUpBoxProps) => {
   // sign up for a free trial, sign up for your first class, etc.
   return (
     <section className="sign-up flex justify-center py-20">
-      <div className="w-4/6 text-center flex flex-col items-center gap-10">
+      <div className="w-5/6 text-center flex flex-col items-center gap-10">
         <div className="flex flex-col gap-3">
           <h2 className="text-3xl font-bold">{headingOne}</h2>
           <h1 className="text-[2.8rem] max-[430px]:text-4xl font-bold max-[430px]:leading-snug leading-snug underline underline-offset-8 decoration-seaserpent">
@@ -17,7 +17,7 @@ const SignUpBox = ({ headingOne, headingTwo }: SignUpBoxProps) => {
         </div>
 
         <form
-          className="flex justify-center border-2 border-dashed min-[540px]:p-14 p-10 mt-8 min-w-[320px]"
+          className="flex justify-center border-2 border-dashed min-[540px]:p-14 p-10 mt-8 w-full"
           action="#"
         >
           <div className="flex flex-col min-[650px]:gap-10 gap-5 w-full">
