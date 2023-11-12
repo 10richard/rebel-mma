@@ -17,7 +17,7 @@ const SignUpBox = ({ headingOne, headingTwo }: SignUpBoxProps) => {
         </div>
 
         <form
-          className="flex flex-col self-center border-2 border-dashed mt-10 min-w-[250px] max-w-[650px] mx-auto min-[540px]:p-14 p-5 py-10 min-[650px]:gap-10 gap-5"
+          className="flex flex-col self-center border-2 border-dashed mt-10 min-w-[200px] max-w-[650px] mx-auto min-[540px]:p-14 p-5 py-10 min-[650px]:gap-10 gap-5"
           action="#"
         >
           <div className="form-input flex max-[650px]:flex-col gap-5">
