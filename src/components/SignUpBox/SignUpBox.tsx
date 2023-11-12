@@ -8,7 +8,7 @@ const SignUpBox = ({ headingOne, headingTwo }: SignUpBoxProps) => {
   // sign up for a free trial, sign up for your first class, etc.
   return (
     <div className="flex flex-col justify-center place-items-center py-20">
-      <div className="w-5/6">
+      <div className="w-5/6 px-4">
         <div className="grid gap-3 text-center">
           <h2 className="text-3xl font-bold leading-snug">{headingOne}</h2>
           <h1 className="text-[2.8rem] max-[430px]:text-4xl font-bold max-[430px]:leading-snug leading-snug underline underline-offset-8 decoration-seaserpent">
